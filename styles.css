@@ -2,3 +2,8 @@ body{
     margin: 0;
     background-color: rgba(42, 42, 115, 0.881);
 }
+
+label{
+    display: block;
+}
+
