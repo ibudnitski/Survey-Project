@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Survey From</h1>
+    <p id="description">This will help us to collect data about you</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Please enter your full name: </label><input type="text" id="name" required placeholder="First and last name">
+        <label for="email" id="email-label">Please provide your email: </label><input type="email" id="email" required placeholder="email@email.com">
+        <label for="number" id="number-label">Enter your age: </label><input type="number" id="number" required min="18" max="65" placeholder="18">
+        <label for="dropdown">Choose your favorite car brand: </label>
+        <select name="cars" id="dropdown">
+            <option value="BMW">BMW</option>
+            <option value="Mazda">Mazda</option>
+            <option value="Volvo">Volvo</option>
+            <option value="Honda">Honda</option>
+            <option value="other">Other...</option>
+        </select>
+        <p>Please select your favorite gear type:</p>
+        <input type="radio" id="gear1" name="gear1" value="manual" checked>
+        <label for="gear1">Manual</label>
+        <input type="radio" id="gear2" name="gear1" value="automatic">
+        <label for="gear2">Automatic</label>
+        <p>What is your favorite music for driving: </p>
+        <input type="checkbox" id="music1" name="music1" value="Rock">
+        <label for="music1">Rock</label>
+        <input type="checkbox" id="music2" name="music2" value="Pop">
+        <label for="music1">Pop</label>
+        <input type="checkbox" id="music3" name="music3" value="R&B">
+        <label for="music1">R&B</label>
+        <input type="checkbox" id="music4" name="music4" value="Hip-hop">
+        <label for="music1">Hip-hop</label>
+        <p>Please enter your comments: </p>
+        <textarea name="" id="" cols="30" rows="10">Pease enter your text here...</textarea>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+</html>
